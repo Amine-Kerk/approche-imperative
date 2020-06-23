@@ -15,8 +15,9 @@ public class DeclarationApp {
 		boolean h=false;
 		String i="bonjour";
 		
-
+		System.out.println(c);
+	
 	}
-	system.out.println(c);
+	
 
 }
