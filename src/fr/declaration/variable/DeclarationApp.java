@@ -4,20 +4,14 @@ public class DeclarationApp {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		byte a=5;
-		short b=10;
-		int c=20;
-		long d=20000L;
-		float e=3.2F;
-		double f=1.8D;
-		char  g='b';
-		boolean h=false;
-		String i="bonjour";
-		
-		System.out.println(c);
+		int i=5;
+		if (i == 0) { // retourne un boolean
+			System.out.println("i est nul");
+			} else if (i > 0) {
+			System.out.println("i est positif");
+			} else {
+			System.out.println("i est négatif");
+			}
 	
 	}
-	
-
 }
